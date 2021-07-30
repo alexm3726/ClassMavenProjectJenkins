@@ -42,7 +42,7 @@ Feature: Adding employees
     When user adds multiple employees from excel file from "newdata" sheet and verify they are added
   @db @regression
   Scenario: Adding employee and Database testing
-    When user enters first name "Yulia123" middle name "MS" and last name "Yulia456"
+    When user enters first name "Yulia129" middle name "MS" and last name "Yulia459"
     And capture employeeId
     And user clicks on save button option
     Then query the HRMS database
@@ -50,7 +50,7 @@ Feature: Adding employees
 
     @db
     Scenario: Add the employee and testing it from the backend
-      When user enters first name "Yulia123" middle name "MS" and last name "Yulia456"
+      When user enters first name "Yulia129" middle name "MS" and last name "Yulia459"
       And capture employeeId
       And user clicks on save button option
       Then query the HRMS database
